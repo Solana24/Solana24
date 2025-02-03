@@ -18,8 +18,7 @@ const WalletMultiButtonDynamic = dynamic(
   { ssr: false },
 )
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "YOUR_SERVER_URL";
-console.log("API_URL:", API_URL);
+const API_URL = process.env.NEXT_PUBLIC_API_URL 
 
 export default function TokenCreator() {
   const { publicKey, connected } = useWallet()
