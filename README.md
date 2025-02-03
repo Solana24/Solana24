@@ -2,6 +2,8 @@ Solana Token Creator
 
 Write the environment variables of the backend and frontend respectively
 
+(Solana endpoint is currently set to devnet)
+
 Inside the frontend, backend folder
 
 ```
