@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 const upload = multer({ storage: multer.memoryStorage() })
 
 const allowedOrigins = [
-  process.env.FRONTEND_URL || "YOUR_FRONTEND_URL",
+  process.env.FRONTEND_URL
 ]
 
 const corsOptions = {
